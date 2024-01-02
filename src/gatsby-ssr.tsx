@@ -30,10 +30,6 @@ export const onRenderBody = ({ setHeadComponents }) => {
   width: 100%;
 }
 
-.gatsby-remark-link-card__main:has(+.gatsby-remark-link-card__thumbnail) {
-  width: 70%;
-}
-
 .gatsby-remark-link-card__content {}
 
 .gatsby-remark-link-card__title {

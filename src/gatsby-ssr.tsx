@@ -85,7 +85,12 @@ export const onRenderBody = ({ setHeadComponents }) => {
 }
 `;
 
-	const style = <style type="text/css">{styles}</style>;
+	const id = "gatsby-remark-link-card-style";
+	const style = (
+		<style id={id} key={id} type="text/css">
+			{styles}
+		</style>
+	);
 
 	return setHeadComponents([style]);
 };

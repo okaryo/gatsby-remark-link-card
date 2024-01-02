@@ -1,0 +1,41 @@
+{
+  "name": "@okaryo/gatsby-remark-link-card",
+  "version": "0.0.1",
+  "description": "Gatsby Remark plugin to embed link card",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && mv ./dist/* . && rm -rf ./dist",
+    "check": "biome check --apply-unsafe ./src",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okaryo/gatsby-remark-link-card.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-remark",
+    "remark",
+    "link-card"
+  ],
+  "author": "okaryo",
+  "license": "MIT",
+  "dependencies": {
+    "open-graph-scraper": "^6.3.2",
+    "sanitize-html": "^2.11.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "@types/open-graph-scraper": "^4.8.5",
+    "@types/sanitize-html": "^2.9.5",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^0.0.0",
+    "gatsby": "^5.0.0",
+    "gatsby-transformer-remark": "^6.0.0"
+  }
+}

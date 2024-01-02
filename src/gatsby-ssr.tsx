@@ -1,7 +1,7 @@
 export const onRenderBody = ({ setHeadComponents }) => {
 	const styles = `
 .gatsby-remark-link-card__container {
-  border: 1px solid rgba(0, 0, 0, .12);
+  border: 1px solid #0000001f;
   border-radius: 8px;
   overflow: hidden;
   transition: 0.4s;
@@ -17,7 +17,6 @@ export const onRenderBody = ({ setHeadComponents }) => {
   align-items: center;
   font-size: 16.5px;
   line-height: 1.5;
-  color: rgba(0,0,0,.82);
   text-decoration: none;
 }
 
@@ -38,7 +37,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
 .gatsby-remark-link-card__content {}
 
 .gatsby-remark-link-card__title {
-  color: #000000DD;
+  color: #000000dd;
   margin: 0;
   font-size: 16px;
   font-weight: bold;
@@ -80,7 +79,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
 
 .gatsby-remark-link-card__url {
   font-size: 12px;
-  color: #000000DD;
+  color: #000000dd;
 }
 
 .gatsby-remark-link-card__thumbnail {

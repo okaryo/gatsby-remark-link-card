@@ -88,8 +88,8 @@ const createLinkCardNode = (
 	]);
 };
 
-export default async ({ markdownAST }: { markdownAST }) => {
-	const transformers = [];
+export default async ({ markdownAST }) => {
+	const transformers: (() => Promise<void>)[] = [];
 	visit(markdownAST, "paragraph", (paragraphNode, _, parent) => {
 		if (
 			paragraphNode.data !== undefined ||

@@ -35,6 +35,9 @@ Only the links that are formatted as a paragraph and surrounded by empty lines w
 https://github.com/okaryo/gatsby-remark-link-card
 (empty line)
 
+✅
+## Header
+https://github.com/okaryo/gatsby-remark-link-card
 
 ❌
 text

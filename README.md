@@ -3,6 +3,9 @@ Gatsby Remark plugin to embed link card to your markdown.
 
 This plugin allows you to display links as link cards in Markdown without the need for any special syntax.
 
+### Sample
+![Smaple](./docs/sample.png)
+
 ### Installation
 ```sh
 npm install @okaryo/gatsby-remark-link-card
@@ -48,16 +51,11 @@ https://github.com/okaryo/gatsby-remark-link-card
 (empty line)
 ```
 
-### Sample
-![Smaple](./docs/sample.png)
-
 ### Customization
 You can apply custom styles to the classes specified within the link card to customize its appearance.
 
 ```css
 .gatsby-remark-link-card__container {}
-
-.gatsby-remark-link-card__container:hover {}
 
 .gatsby-remark-link-card__link {}
 

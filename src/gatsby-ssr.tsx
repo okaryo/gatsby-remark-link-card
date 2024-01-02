@@ -1,6 +1,6 @@
 export const onRenderBody = ({ setHeadComponents }) => {
 	const styles = `
-.gatsby-remark-simple-link-card__container {
+.gatsby-remark-link-card__container {
   border: 1px solid rgba(0, 0, 0, .12);
   border-radius: 8px;
   overflow: hidden;
@@ -8,11 +8,11 @@ export const onRenderBody = ({ setHeadComponents }) => {
   background: #fff;
 }
 
-.gatsby-remark-simple-link-card__container:hover {
+.gatsby-remark-link-card__container:hover {
   background: #f3f4f6;
 }
 
-.gatsby-remark-simple-link-card__link {
+.gatsby-remark-link-card__link {
   display: flex;
   align-items: center;
   font-size: 16.5px;
@@ -21,7 +21,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
   text-decoration: none;
 }
 
-.gatsby-remark-simple-link-card__main {
+.gatsby-remark-link-card__main {
   display: flex;
   flex-direction: column;
   height: 128px;
@@ -31,13 +31,13 @@ export const onRenderBody = ({ setHeadComponents }) => {
   width: 100%;
 }
 
-.gatsby-remark-simple-link-card__main:has(+.gatsby-remark-simple-link-card__thumbnail) {
+.gatsby-remark-link-card__main:has(+.gatsby-remark-link-card__thumbnail) {
   width: 70%;
 }
 
-.gatsby-remark-simple-link-card__content {}
+.gatsby-remark-link-card__content {}
 
-.gatsby-remark-simple-link-card__title {
+.gatsby-remark-link-card__title {
   color: #000000DD;
   margin: 0;
   font-size: 16px;
@@ -52,7 +52,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
   -webkit-box-orient: vertical;
 }
 
-.gatsby-remark-simple-link-card__description {
+.gatsby-remark-link-card__description {
   margin-top: 4px;
   color: #77838c;
   font-size: 14px;
@@ -62,7 +62,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
   -webkit-box-orient: vertical;
 }
 
-.gatsby-remark-simple-link-card__meta {
+.gatsby-remark-link-card__meta {
   margin-top: 8px;
   display: flex;
   align-items: center;
@@ -71,19 +71,19 @@ export const onRenderBody = ({ setHeadComponents }) => {
   white-space: nowrap;
 }
 
-.gatsby-remark-simple-link-card__favicon {
+.gatsby-remark-link-card__favicon {
   height: 14px !important;
   width: 14px !important;
   margin-right: 6px;
   flex-shrink: 0;
 }
 
-.gatsby-remark-simple-link-card__url {
+.gatsby-remark-link-card__url {
   font-size: 12px;
   color: #000000DD;
 }
 
-.gatsby-remark-simple-link-card__thumbnail {
+.gatsby-remark-link-card__thumbnail {
   display: block;
   height: 128px !important;
   width: auto !important;

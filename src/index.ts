@@ -35,7 +35,7 @@ const text = (value = "") => {
 };
 
 const className = (value: string) => {
-	const prefix = "gatsby-remark-simple-link-card";
+	const prefix = "gatsby-remark-link-card";
 	return `${prefix}__${value}`;
 };
 

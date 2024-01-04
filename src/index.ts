@@ -77,11 +77,13 @@ const createLinkCardNode = (
 					]),
 				]),
 				ogImageUrl
-					? h("img", {
-							src: ogImageUrl,
-							className: className("thumbnail"),
-							alt: "ogImage",
-					  })
+					? h("div", { className: className("thumbnail") }, [
+							h("img", {
+								src: ogImageUrl,
+								className: className("image"),
+								alt: "ogImage",
+							}),
+					  ])
 					: h("div"),
 			],
 		),

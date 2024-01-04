@@ -15,6 +15,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
 .gatsby-remark-link-card__link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-size: 16.5px;
   line-height: 1.5;
   text-decoration: none;
@@ -28,6 +29,17 @@ export const onRenderBody = ({ setHeadComponents }) => {
   line-height: 1.5;
   padding: 16px;
   width: 100%;
+  flex-shrink: 0;
+}
+
+.gatsby-remark-link-card__main:has(+ .gatsby-remark-link-card__thumbnail) {
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  .gatsby-remark-link-card__main:has(+ .gatsby-remark-link-card__thumbnail) {
+    width: 70%;
+  }
 }
 
 .gatsby-remark-link-card__content {}
@@ -79,9 +91,14 @@ export const onRenderBody = ({ setHeadComponents }) => {
 }
 
 .gatsby-remark-link-card__thumbnail {
-  display: block;
-  height: 128px !important;
-  width: auto !important;
+  height: 128px;
+}
+
+.gatsby-remark-link-card__image {
+  margin: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover;
 }
 `;
 

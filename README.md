@@ -77,4 +77,6 @@ You can apply custom styles to the classes specified within the link card to cus
 .gatsby-remark-link-card__url {}
 
 .gatsby-remark-link-card__thumbnail {}
+
+.gatsby-remark-link-card__image {}
 ```

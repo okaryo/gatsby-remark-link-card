@@ -23,8 +23,8 @@
   "author": "okaryo",
   "license": "MIT",
   "dependencies": {
-    "open-graph-scraper": "^6.3.2",
-    "sanitize-html": "^2.11.0",
+    "open-graph-scraper": "^6.4.0",
+    "sanitize-html": "^2.12.0",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {

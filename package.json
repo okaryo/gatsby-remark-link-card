@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "tsc && mv ./dist/* . && rm -rf ./dist",
-    "check": "biome check --apply-unsafe ./src",
+    "check": "biome check ./src",
+    "check:fix": "biome check --apply-unsafe ./src",
+    "check:ci": "biome ci ./src",
     "prepublishOnly": "npm run build"
   },
   "repository": {

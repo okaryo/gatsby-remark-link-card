@@ -1,6 +1,6 @@
 {
   "name": "@okaryo/gatsby-remark-link-card",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Gatsby Remark plugin to embed link card",
   "main": "index.js",
   "type": "module",

@@ -25,8 +25,8 @@
   "author": "okaryo",
   "license": "MIT",
   "dependencies": {
-    "open-graph-scraper": "^6.4.0",
-    "sanitize-html": "^2.12.1",
+    "open-graph-scraper": "^6.8.2",
+    "sanitize-html": "^2.13.0",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {

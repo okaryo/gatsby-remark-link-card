@@ -71,7 +71,7 @@ const createLinkCardNode = (
 									width: 14,
 									height: 14,
 									alt: "favicon",
-							  })
+								})
 							: h("div"),
 						h("span", { className: className("url") }, [text(url.hostname)]),
 					]),
@@ -83,7 +83,7 @@ const createLinkCardNode = (
 								className: className("image"),
 								alt: "ogImage",
 							}),
-					  ])
+						])
 					: h("div"),
 			],
 		),

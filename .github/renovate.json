@@ -1,6 +1,7 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["config:base"],
+	"labels": ["maintenance"],
 	"schedule": ["every weekend"],
 	"timezone": "Asia/Tokyo",
 	"automerge": false,
@@ -12,10 +13,6 @@
 		{
 			"matchDepTypes": ["devDependencies"],
 			"groupName": "devDependencies"
-		},
-		{
-			"matchDepTypes": ["dependencies"],
-			"groupName": "dependencies"
 		}
 	]
 }

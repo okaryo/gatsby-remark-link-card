@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc && mv ./dist/* . && rm -rf ./dist",
     "check": "biome check ./src",
-    "check:fix": "biome check --apply-unsafe ./src",
+    "check:fix": "biome check --write --unsafe ./src",
     "check:ci": "biome ci ./src",
     "prepublishOnly": "npm run build"
   },
@@ -30,7 +30,7 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.5.3",
+    "@biomejs/biome": "^1.9.2",
     "@types/open-graph-scraper": "^4.8.5",
     "@types/sanitize-html": "^2.11.0",
     "typescript": "^5.3.3"

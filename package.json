@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "open-graph-scraper": "^6.8.3",
-    "sanitize-html": "^2.13.0",
+    "sanitize-html": "^2.14.0",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {

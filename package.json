@@ -32,8 +32,8 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/open-graph-scraper": "^4.8.5",
-    "@types/sanitize-html": "^2.13.0",
-    "typescript": "^5.7.3"
+    "@types/sanitize-html": "^2.16.0",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
     "react": "^18.0.0 || ^0.0.0",
